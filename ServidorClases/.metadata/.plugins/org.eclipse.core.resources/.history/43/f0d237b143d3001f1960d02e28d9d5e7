@@ -1,0 +1,42 @@
+package eventos.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import eventos.dao.EventoDao;
+import eventos.dao.TipoDao;
+
+@Controller
+@RequestMapping("/public/")
+public class TipoController {
+	
+	@Autowired
+	private TipoDao tdao;
+	
+	@Autowired
+	private EventoDao edao;
+
+	
+	@GetMapping("tipoEvento")
+	public String listaTipos(@RequestParam(required = false) Integer idTipo, Model model) {
+
+	    model.addAttribute("tipos", tdao.findAll());
+
+	    if (idTipo != null) {
+	    	
+	        model.addAttribute("listaTipo", edao.buscarPorTipo(idTipo));
+	        
+	    } else {
+	    	
+	        model.addAttribute("listaTipo", null);
+	    }
+
+	    return "/public/listaTipos";
+	}
+
+
+}

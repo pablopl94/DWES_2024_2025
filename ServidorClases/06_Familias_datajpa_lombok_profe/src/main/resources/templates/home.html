@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h3>Mensaje:  <span th:text="${mensaje}"></span></h3>
+	<p></p>
+	<h3>Hola:  <span th:text="${session.usuario == null ? 'Guest' : session.usuario.username}"></span></h3>
+	
+	<a th:href="@{/login}">inicio sesion</a>
+	<a th:href="@{/logout}">cerrar sesion</a>
+	<a th:href="@{/registro}">registrate</a>
+	
+	
+	
+</body>
+</html>

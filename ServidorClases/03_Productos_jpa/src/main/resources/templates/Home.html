@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado de Productos</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Listado de Productos</h1>
+    
+    <div id="mensajePopup" class="alert alert-info popup-message" role="alert" th:text="${mensaje}" style="display: none;"></div>
+
+    <div class="mb-3 text-end">
+        <a class="btn btn-primary" th:href="@{/productos/alta}">AÑADIR PRODUCTO</a>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Fecha Alta</th>
+                <th>Ver Detalles</th>
+                <th>Eliminar</th>
+                <th>Editar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="ele: ${productos}">
+                <td th:text="${ele.idProducto}"></td>
+                <td th:text="${ele.descripcion}"></td>
+                <td th:text="${ele.precio}"></td>
+                <td th:text="${ele.stock}"></td>
+                <td th:text="${#dates.format(ele.fechaAlta, 'dd-MM-yyyy')}"></td>
+                <td><a class="btn btn-info btn-sm" th:href="@{/productos/detalle/{id}(id=${ele.idProducto})}">VER DETALLES</a></td>
+                <td><a class="btn btn-danger btn-sm" th:href="@{/productos/eliminar/{id}(id=${ele.idProducto})}">ELIMINAR</a></td>
+                <td><a class="btn btn-warning btn-sm" th:href="@{/productos/editar/{id}(id=${ele.idProducto})}">MODIFICAR</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    window.onload = function() {
+        var mensajePopup = document.getElementById("mensajePopup");
+        if (mensajePopup && mensajePopup.textContent.trim() !== "") {
+            mensajePopup.style.display = "block";
+            setTimeout(function() {
+                mensajePopup.style.display = "none";
+            }, 2000);
+        }
+    };
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+

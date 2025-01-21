@@ -1,0 +1,5 @@
+package eventos.entidades;
+
+public enum ReservaEvento {
+
+}

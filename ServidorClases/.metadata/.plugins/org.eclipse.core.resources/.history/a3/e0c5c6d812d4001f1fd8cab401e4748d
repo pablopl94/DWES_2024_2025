@@ -1,0 +1,51 @@
+package eventos.dao;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import eventos.entidades.Usuario;
+import eventos.repository.UsuarioRepository;
+
+@Repository
+public class UsuarioDaoImplMy8 implements UsuarioDao{
+
+	@Autowired
+	private UsuarioRepository urepo;
+
+	@Override
+	public Usuario buscarPorUsername(String username) {
+		return urepo.findByUsername(username);
+	}
+
+	@Override
+	public Usuario findById(String clavePk) {
+		return urepo.findByUsername(clavePk);
+	}
+
+	@Override
+	public List<Usuario> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int updateOne(Usuario entidad) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int insertOne(Usuario entidad) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int deleteOne(String clavePk) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
+}

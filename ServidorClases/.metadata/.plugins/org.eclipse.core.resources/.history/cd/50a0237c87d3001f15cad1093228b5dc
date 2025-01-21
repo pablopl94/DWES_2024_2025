@@ -1,0 +1,29 @@
+package eventos.entidades;
+
+import java.math.BigDecimal;
+
+public enum ReservaEvento{
+    ESTANDAR {
+        @Override
+        public BigDecimal calcularPrecio(int cantidad, BigDecimal precioUnitario) {
+            return precioUnitario.multiply(BigDecimal.valueOf(cantidad));
+        }
+    },
+    PREMIUM {
+        @Override
+        public BigDecimal calcularPrecio(int cantidad, BigDecimal precioUnitario) {
+            // PREMIUM agrega un recargo del 20%
+            return precioUnitario.multiply(BigDecimal.valueOf(cantidad)).multiply(BigDecimal.valueOf(1.2));
+        }
+    },
+    DESCUENTO {
+        @Override
+        public BigDecimal calcularPrecio(int cantidad, BigDecimal precioUnitario) {
+            // DESCUENTO aplica un 10% de descuento
+            return precioUnitario.multiply(BigDecimal.valueOf(cantidad)).multiply(BigDecimal.valueOf(0.9));
+        }
+    };
+
+    // Método abstracto que cada tipo debe implementar
+    public abstract BigDecimal calcularPrecio(int cantidad, BigDecimal precioUnitario);
+}

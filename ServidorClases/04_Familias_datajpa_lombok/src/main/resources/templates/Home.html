@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bienvenido</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5">
+        <!-- Mensaje -->
+        <div class="alert alert-info" role="alert">
+            <h4 class="alert-heading">Mensaje:</h4>
+            <p th:text="${mensaje}">Mensaje de ejemplo</p>
+        </div>
+
+        <!-- Saludo al usuario -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Hola, <span th:text="${session.usuario == null ? 'Guest' : session.usuario.username}">Guest</span></h5>
+                <p class="card-text">Bienvenido a nuestra página.</p>
+            </div>
+        </div>
+
+        <!-- Enlaces de navegación -->
+        <div class="d-flex justify-content-around">
+            <a th:href="@{/login}" class="btn btn-primary">Iniciar sesión</a>
+            <a th:href="@{/logout}" class="btn btn-danger">Cerrar sesión</a>
+            <a th:href="@{/registro}" class="btn btn-secondary">Registrarse</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

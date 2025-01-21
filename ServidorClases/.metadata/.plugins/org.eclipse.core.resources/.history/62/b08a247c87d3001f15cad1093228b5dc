@@ -1,0 +1,11 @@
+package eventos.entidades;
+
+import java.math.BigDecimal;
+
+public enum ReservaEvento{
+
+        @Override
+        public BigDecimal calcularPrecio(int cantidad, BigDecimal precioUnitario) {
+            return precioUnitario.multiply(BigDecimal.valueOf(cantidad));
+   
+}

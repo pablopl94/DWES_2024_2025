@@ -1,0 +1,201 @@
+package eventos.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+
+import eventos.dao.EventoDao;
+import eventos.dao.ReservaDao;
+import eventos.dao.TipoDao;
+import eventos.entidades.Evento;
+import eventos.entidades.Reserva;
+import eventos.entidades.Tipo;
+import jakarta.servlet.http.HttpServletRequest;
+
+
+@Controller
+
+public class EventoController {
+	
+	@Autowired
+	private EventoDao edao;
+	@Autowired
+	private TipoDao tdao;
+	
+	@Autowired
+	private ReservaDao resdao;
+	
+	 // ***** RUTAS PÚBLICAS *****
+	
+	// LISTA DE EXCURSIONES ACEPTADAS 
+	@GetMapping("/public/eventos/aceptados")
+	public String listaEventosActivos (Model model) {
+		
+		model.addAttribute("eventosAceptados", edao.buscarPorAceptados());
+		
+		return "eventos/listaAceptados";
+	}
+	
+	// LISTA DE EXCURSIONES ACEPTADAS
+	@GetMapping("/public/eventos/cancelados")
+	public String listaEventosCancelados(Model model) {
+		
+		model.addAttribute("eventosCancelados", edao.buscarPorCancelados());
+		
+		return "eventos/listaCancelados";
+	}
+	
+	
+	// LISTA DE EXCURSIONES ACEPTADAS
+	@GetMapping("/public/eventos/terminados")
+	public String listaEventosTermiandos (Model model) {
+		
+		model.addAttribute("eventosTerminados", edao.buscarPorTerminados());
+		
+		return "eventos/listaTerminados";
+	}
+	
+	// LISTA DE EXCURSIONES DESTACADOS
+	@GetMapping("/public/eventos/destacados")
+	public String listaEventosDestacados (Model model) {
+		
+		model.addAttribute("eventosDestacados", edao.buscarPorDestacados());
+		
+		return "eventos/listaDestacados";
+	}
+	
+    // VER DETALLES EVENTO
+    @GetMapping("/public/eventos/detalles/{idEvento}")
+    public String detallesEvento(@PathVariable int idEvento, Model model) {
+        
+        model.addAttribute("listaDetalles",  edao.listaDeDetalles(idEvento));
+        
+        return "eventos/detallesEvento"; 
+    }
+    
+	
+	
+	 // ***** RUTAS NO PUBLICAS *****
+    
+	// CANCELAR EVENTO "CAMBIAR ESTADO"
+	@GetMapping("/admin/eventos/cancelar/{idEvento}")
+	public String cancelarEvento(@PathVariable int idEvento,RedirectAttributes ratt,  HttpServletRequest request) {
+		
+	    Evento evento = edao.findById(idEvento);
+
+	    if (!evento.getEstado().equals("CANCELADO")) {
+	        evento.setEstado("CANCELADO");
+	        edao.updateOne(evento);
+	        ratt.addFlashAttribute("mensaje", "Evento cancelado corretamente");
+	    } else {
+	    	ratt.addFlashAttribute("error","No es posible cancelar el eveento");
+	    }
+	    
+	    	String referer = request.getHeader("Referer");
+	    	return "redirect:" + (referer != null ? referer : "/eventos");
+	}
+	
+
+	
+	// ELIMINAR EVENTO 
+	@GetMapping("/admin/eventos/eliminar/{idEvento}")
+	public String eliminarEvento(@PathVariable int idEvento, RedirectAttributes ratt, HttpServletRequest request, Reserva reserva) {	
+		
+	    boolean reservasEliminadas = resdao.eliminarReservasDeEvento(idEvento);
+	    boolean eventoEliminado = edao.deleteOne(idEvento) == 1;
+
+	    if (reservasEliminadas && eventoEliminado) {
+	        ratt.addFlashAttribute("mensaje", "El evento y sus reservas han sido eliminados correctamente.");
+	    } else if (eventoEliminado) {
+	        ratt.addFlashAttribute("mensaje", "El evento fue eliminado correctamente, pero no tenía reservas.");
+	    } else {
+	        ratt.addFlashAttribute("error", "El evento no pudo ser eliminado.");
+	    }
+
+	    String referer = request.getHeader("Referer");
+	    return "redirect:" + (referer != null ? referer : "/eventos");
+	}
+	
+
+	//EDITAR EVENTO
+	
+	@PostMapping("/admin/eventos/editar/{idEvento}")
+	public String editarEvento( @RequestParam int idTipo,  Evento evento, RedirectAttributes ratt) {
+		
+
+	    // Crear un nuevo objeto Tipo y asignar el idTipo que metamos en el formulario
+	    Tipo tipo = new Tipo();
+	    tipo.setIdTipo(idTipo);
+
+	    //Le pasamos el nuevo objeto tipo al evento
+	    evento.setTipo(tipo);
+	
+		
+		if (edao.updateOne(evento) == 1)
+			ratt.addFlashAttribute("mensaje", "Evento moficado correctamente");
+		else 
+			ratt.addFlashAttribute("mensaje", "Evento no moficado");
+		
+		 return "redirect:/home";
+	}
+	
+
+	@GetMapping("admin/eventos/editar/{idEvento}")
+	public String mostrarFormularioEdicion(@PathVariable int idEvento, Model model) {
+		
+
+		model.addAttribute("listaTipos", tdao.findAll());
+	    model.addAttribute("evento", edao.findById(idEvento));
+
+
+	    return "eventos/formEventos";
+	}
+
+
+	//DAR DE ALTA EVENTO
+	@PostMapping("admin/eventos/alta")
+	public String altaEvento(@RequestParam int idTipo, Evento evento, RedirectAttributes ratt) {
+		
+		// Crear un nuevo objeto Tipo y asignar el idTipo que metamos en el formulario
+	    Tipo tipo = new Tipo();
+	    tipo.setIdTipo(idTipo);
+
+	    //Le pasamos el nuevo objeto tipo al evento
+	    evento.setTipo(tipo);
+	
+		if (edao.insertOne(evento) == 1)
+			ratt.addFlashAttribute("mensaje", "Evento dado de alta correctamente");
+		
+		else 
+			ratt.addFlashAttribute("mensaje", "El evento no ha sido dado de alta");
+		
+		return "redirect:/home";
+	}
+	
+
+	@GetMapping("admin/eventos/alta")
+	public String formaltaEvento(Model model) {
+		
+		model.addAttribute("listaTipos", tdao.findAll());
+		model.addAttribute("evento", new Evento());
+		
+		return "eventos/formEventos";
+	}
+
+		
+	
+	
+	
+		
+		
+	
+	
+	
+}  
+
