@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Modificar Excursión</title>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+</head>
+<body>
+
+	<div class="container mt-4">
+		<h1 class="text-center mb-4">Modificar excursion</h1>
+
+		<!-- FORMULARIO MODIFICAR-->
+		<form
+			th:action="@{/excursiones/modificar/{idExcursion}(idExcursion=${excursion.idExcursion})}"
+			method="post" class="form">
+
+			<!-- EN MODIFICAR NO METEMOS EL ID !!-->
+			<!-- ORIGEN -->
+			<div class="mb-3">
+				<label class="form-label" for="origen">ORIGEN</label> <input
+					type="text" id="origen" name="origen" class="form-control" required>
+			</div>
+
+			<!-- DESTINO -->
+			<div class="mb-3">
+				<label class="form-label" for="destino">DESTINO</label> <input
+					type="text" id="destino" name="destino" class="form-control"
+					required>
+			</div>
+
+			<!-- DURACION -->
+			<div class="mb-3">
+				<label class="form-label" for="destino">DIAS</label> <input
+					type="text" id="destino" name="duracion" class="form-control"
+					required>
+			</div>
+
+			<!-- FECHA DE LA EXCURSIÓN -->
+			<div class="mb-3">
+				<label class="form-label" for="fechaExcursion">FECHA DE LA
+					EXCURSIÓN</label> <input type="date" id="fechaExcursion"
+					name="fechaExcursion" class="form-control" required>
+			</div>
+
+			<!-- FECHA DEL ALTA -->
+			<div class="mb-3">
+				<label class="form-label" for="fechaAlta">FECHA DEL ALTA</label> <input
+					type="date" id="fechaAlta" name="fechaAlta" class="form-control"
+					required>
+			</div>
+
+			<!-- ESTADO -->
+			<div class="mb-3">
+				<label class="form-label" for="estado">ESTADO</label> <select
+					name="estado" id="estado" class="form-select">
+					<option value="CREADO">Creado</option>
+					<option value="CANCELADO">Cancelado</option>
+					<option value="TERMINADO">Terminado</option>
+				</select>
+			</div>
+
+			<!-- DESTACADO -->
+			<div class="mb-3">
+				<label class="form-label" for="destacado">DESTACADO</label> <select
+					name="destacado" id="destacado" class="form-select">
+					<option value="S">Sí</option>
+					<option value="N">No</option>
+				</select>
+			</div>
+
+			<!-- AFORO MÁXIMO -->
+			<div class="mb-3">
+				<label class="form-label" for="aforoMaximo">AFORO MÁXIMO</label> <input
+					type="number" id="aforoMaximo" name="aforoMaximo"
+					class="form-control" required>
+			</div>
+
+			<!-- MÍNIMO DE ASISTENTES -->
+			<div class="mb-3">
+				<label class="form-label" for="miniAsistentes">MÍNIMO DE
+					ASISTENTES</label> <input type="number" id="miniAsistentes"
+					name="miniAsistentes" class="form-control" required>
+			</div>
+
+			<!-- PRECIO UNITARIO -->
+			<div class="mb-3">
+				<label class="form-label" for="precioUnitario">PRECIO
+					UNITARIO</label> <input type="number" step="0.01" id="precioUnitario"
+					name="precioUnitario" class="form-control" required>
+			</div>
+
+			<!-- IMAGEN -->
+			<div class="mb-3">
+				<label class="form-label" for="image">IMAGEN</label> <input
+					type="text" id="image" name="image" class="form-control" required>
+			</div>
+
+			<!-- BOTÓN PARA DAR DE ALTA -->
+			<button type="submit" class="btn btn-success" value="Enviar">Dar
+				de alta</button>
+		</form>
+	</div>
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

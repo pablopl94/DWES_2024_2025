@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-file:/C:/Users/pabli/Documents/SPRING%20TOOLS/DWES_2024_2025/ServidorActividades/ServidorActividades/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
-meta_index
