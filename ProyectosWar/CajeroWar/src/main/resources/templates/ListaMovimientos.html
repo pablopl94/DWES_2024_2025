@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Listado de Movimientos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>body {transform: scale(0.7);transform-origin: top center;}</style>
+</head>
+<body>
+    <div class="container my-5">
+        <!-- Información de la cuenta -->
+        <div class="row bg-light p-4 rounded mb-4">
+            <div class="col-md-6 text-center">
+                <h5>Saldo disponible:</h5>
+                <h4 class="font-weight-bold" th:text="${session.cuenta.saldo + ' €'}"></h4>
+            </div>
+            <div class="col-md-6 text-center">
+                <h5>Número de cuenta:</h5>
+                <h4 class="font-weight-bold" th:text="${session.cuenta.idCuenta}"></h4>
+            </div>
+        </div>
+
+        <!-- Tabla de movimientos -->
+        <table class="table table-bordered text-center">
+            <thead class="thead-light">
+                <tr>
+                    <th>Fecha</th>
+                    <th>Importe</th>
+                    <th>Tipo Operación</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Iterar sobre la lista de movimientos y mostrarlos en la tabla -->
+                <tr th:each="movimiento : ${movimientos}">
+                    <td th:text="${#temporals.format(movimiento.fecha, 'dd-MM-yyyy HH:mm:ss')}"></td>
+                    <td th:text="${movimiento.cantidad + ' €'}"></td>
+                    <td th:text="${movimiento.operacion}"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Botón para volver a la página de inicio -->
+        <div class="text-center mt-4">
+            <a th:href="@{/home}" class="btn btn-danger btn-lg">Volver</a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

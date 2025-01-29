@@ -42,6 +42,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ProyectosWar"/>
+			<item value="C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases"/>
 			<item value="C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025"/>
 		</list>
 		<section name="SmartImportWizard.dialogBounds">
