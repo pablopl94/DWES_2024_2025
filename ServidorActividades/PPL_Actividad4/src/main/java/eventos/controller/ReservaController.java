@@ -31,34 +31,36 @@ public class ReservaController {
 	private EventoDao edao;
 	
 	
-	
+	//MUESTRA LA LISTA DE RESERVAS DE UN USUARIO
 	@GetMapping("/reservas/misReservas")
 	public String reservasCliente(HttpSession sesion, Model model,Evento evento) {
 		
+		// Obtengo el usuario desde la sesion
 	    Usuario usuario = (Usuario) sesion.getAttribute("usuario");
+	    // Busco las reservas del usuario y agregarlas al modelo
 	    model.addAttribute("misReservas", resdao.buscarReservasPorUsuario(usuario.getUsername()));
 	    
 	    return "reservas/reservasCliente";
 	}
 	
-	
+	//MODIFICAMOS LA RESERVA 
 	@PostMapping("/reservas/modificar/{idReserva}")
 	public String modificarMisReservas(@PathVariable int idReserva, @RequestParam int cantidad, RedirectAttributes rat) {
 		
-	    // Buscar la reserva por ID
+	    // Busco la reserva por ID
 	    Reserva reserva = resdao.findById(idReserva);
 	    
-	    // Validar la cantidad en una sola condición
+	    // Valido la cantidad de personas en la reserva 
 	    if (cantidad < 1 || cantidad > 10) {
 	        rat.addFlashAttribute("error", "La cantidad debe estar entre 1 y 10 personas.");
 	        return "redirect:/cliente/reservas/misReservas";
 	    }
 
-	    // Si la cantidad es válida, actualizar los valores de la reserva
+	    // Si la cantidad es valida, actualiza la cantidad y el precioVenta
 	    reserva.setCantidad(cantidad);
 	    reserva.setPrecioVenta(reserva.getEvento().getPrecio().multiply(BigDecimal.valueOf(cantidad)));
 
-	    // Guardar los cambios en la base de datos
+	    // Intentamos guarda los cambios de la reserva en la bbdd, si tiene exito o error mandamos mensaje
 	    if (resdao.updateOne(reserva) == 1) {
 	        rat.addFlashAttribute("mensaje", "Cantidad modificada correctamente.");
 	    } else {
@@ -68,10 +70,11 @@ public class ReservaController {
 	    return "redirect:/cliente/reservas/misReservas";
 	}
 	
-	
+	//CANCELAR LA RESERVA
 	@GetMapping("/reservas/cancelar/{idReserva}")
 	public String cancelarReservas(@PathVariable int idReserva, RedirectAttributes rat, Reserva reserva) {
 		
+		 // Intentamos eliminar la reserva, si tiene exito o error mandamos mensaje
 		 if (resdao.deleteOne(idReserva) == 1) {
 	            rat.addFlashAttribute("mensaje", "La reserva ha sido cancelada");
 	        } else {
@@ -81,26 +84,27 @@ public class ReservaController {
 	    return "redirect:/cliente/reservas/misReservas";
 	}
 	
+	//ALTA DE UNA RESERVA
 	@PostMapping("/reservas/alta/{idEvento}")
 	public String altaReservas(@PathVariable Integer idEvento, @RequestParam int cantidad, RedirectAttributes rat, HttpSession sesion) {
 
-	    // Buscar el evento por ID
+	    // Busco el evento por ID
 	    Evento evento = edao.findById(idEvento);
 
-	    // Obtener el usuario desde la sesión
+	    // Obtengo el usuario desde la sesion
 	    Usuario usuario = (Usuario) sesion.getAttribute("usuario");
 
-	    // Validar la cantidad antes de continuar
+	    // Valido la cantidad de personas permitidas por reserva
 	    if (cantidad < 1 || cantidad > 10) {
 	        rat.addFlashAttribute("error", "La cantidad debe estar entre 1 y 10 personas.");
 	        return "redirect:/public/eventos/detalles/" + idEvento;
 	    }
 
-	    // Calcular el aforo disponible en el POST
+	    // Calcular el aforo disponible en el evento
 	    int aforoMaximo = evento.getAforoMaximo();
 ;	    int aforoDisponible = resdao.calcularAforoDisponible(idEvento, aforoMaximo);
 
-	    // Validar si la suma de la nueva reserva y lo ya reservado supera el aforo máximo
+	    // Valido si la suma de la nueva reserva y lo ya reservado (totalRservado) supera el aforo máximo
 	    int totalReservados = aforoMaximo - aforoDisponible; // Total de reservas actuales
 	    if ((cantidad + totalReservados) > aforoMaximo) {
 	        rat.addFlashAttribute("error", "No puedes reservar " + cantidad + " plazas. Solo quedan " + aforoDisponible + " disponibles");
@@ -108,14 +112,18 @@ public class ReservaController {
 	        return "redirect:/public/eventos/detalles/" + idEvento;
 	    }
 
-	    // Asignar valores a la reserva
+	    // Asigno valores a la nueva reserva
 	    Reserva reserva = new Reserva();
 	    reserva.setEvento(evento);
 	    reserva.setUsuario(usuario);
 	    reserva.setCantidad(cantidad);
-	    reserva.setPrecioVenta(evento.getPrecio().multiply(BigDecimal.valueOf(cantidad)));
+	    // Calculo el precioVenta de la reserva multiplicando el precio del evento por la cantidad de personas
+	    reserva.setPrecioVenta(
+	        evento.getPrecio() // Obtiene el precio del evento (tipo BigDecimal)
+	            .multiply(BigDecimal.valueOf(cantidad)) // Multiplica el precio por la cantidad de reservas
+	    );
 
-	    // Insertar la reserva en la base de datos
+	    // Intentamos añadir la reserva a la bbdd, si tiene exito o error mandamos mensaje
 	    if (resdao.insertOne(reserva) == 1) {
 	        rat.addFlashAttribute("mensaje", "Tu reserva se ha realizado correctamente.");
 	    } else {

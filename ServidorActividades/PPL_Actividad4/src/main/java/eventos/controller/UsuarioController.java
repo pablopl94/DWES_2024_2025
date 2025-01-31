@@ -18,6 +18,7 @@ public class UsuarioController {
 	@GetMapping("/listaUsuarios")
 	public String listaUsuario(Model model) {
 		
+		//Busco la lista de todos los usuario y la añado al modelo para mostrarla en la vista
 		model.addAttribute("listaUsuarios", udao.findAll());
 		
 		return"Usuarios/listaUsuarios";
