@@ -79,8 +79,35 @@ public class ProductosServicesImpl implements ProductoServices {
 
 	@Override
 	public double findByAverageProdPriceByFamily(int codigoFamilia) {
-		return 0;
+	    List<Producto> listaProductoByFamilia = productoRepository.findByFamilia_Codigo(codigoFamilia);
+
+	    return listaProductoByFamilia.stream()  // 1️ Convierte la lista en un Stream
+	            .mapToDouble(Producto::getPrecioUnitario) // 2️ Extrae los precios de cada producto
+	            .average() // 3️ Calcula el promedio de los precios
+	            .orElse(0.0); // 4️ Si la lista está vacía, devuelve 0.0
 	}
+
+// FORMA TRADICIONAL DE HACER EL METODO CON UN FOR
+//	@Override
+//	public double findByAverageProdPriceByFamily(int codigoFamilia) {
+//	    List<Producto> listaProductoByFamilia = productoRepository.findByFamilia_Codigo(codigoFamilia);
+//
+//	    // Si la lista está vacía, devolvemos 0.0 para evitar división por 0
+//	    if (listaProductoByFamilia == null || listaProductoByFamilia.isEmpty()) {
+//	        return 0.0;
+//	    }
+//
+//	    // Variable para almacenar la suma de los precios
+//	    double suma = 0.0;
+//
+//	    // Recorremos la lista con un bucle for tradicional
+//	    for (Producto p : listaProductoByFamilia) {
+//	        suma += p.getPrecioUnitario(); // Sumamos los precios de cada producto
+//	    }
+//
+//	    // Calculamos el promedio dividiendo la suma entre la cantidad de productos
+//	    return suma / listaProductoByFamilia.size();
+//	}
 
 	@Override
 	public List<Producto> finfByDescriptionContainig(String subCadena) {

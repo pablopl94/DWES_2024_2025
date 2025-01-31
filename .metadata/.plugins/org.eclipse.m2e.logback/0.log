@@ -2662,3 +2662,690 @@ org.eclipse.core.runtime.CoreException: Launch configuration PruebaFecha referen
 2025-01-29 00:58:02,315 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-01-29 00:58:02,317 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-01-29 00:58:02,321 [Worker-35: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-29 01:01:49,311 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-29 12:24:54,322 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-01-29 12:25:04,186 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cajeroweb:PPL_Activ2_cajero:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ProyectosWar\CajeroWar\pom.xml.
+2025-01-29 12:25:11,141 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-29 12:25:11,364 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2025-01-29 12:25:11,662 [Worker-12: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-01-29 12:25:13,767 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: es.unir.excursionweb:ExcursionWar:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ProyectosWar\ExcursionWar\pom.xml.
+2025-01-29 12:25:33,886 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.unir.excursionweb:Actvididad_PPL:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\Actvididad_PPL\pom.xml.
+2025-01-29 12:25:34,808 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: principal:01_Saludar:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\01_Saludar\pom.xml.
+2025-01-29 12:25:35,439 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cajero:APIREST_Ejemplo_Producto:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\APIREST_Ejemplo_Producto\pom.xml.
+2025-01-29 12:25:36,467 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: familias:04_Familias_datajpa_lombok:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\04_Familias_datajpa_lombok\pom.xml.
+2025-01-29 12:25:37,247 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: productos.web:03_Productos_jpa:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\03_Productos_jpa\pom.xml.
+2025-01-29 12:25:37,830 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cajeroweb:ACtividad3_Cajero_Transferir_Solucion_Profesor:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\ACtividad3_Cajero_Transferir_Solucion_Profesor\ACtividad3_Cajero_Transferir_Solucion_Profesor\pom.xml.
+2025-01-29 12:25:38,700 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.teod.familiasec:10_sboot_familias_jpa_security_6_30:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\10_sboot_familias_jpa_security_6_30\10_sboot_familias_jpa_security_6_30 (1)\10_sboot_familias_jpa_security_6_30\pom.xml.
+2025-01-29 12:25:39,698 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: restproductos:20_Productos_Basico:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\20_Productos_Basico\20_Productos_Basico\pom.xml.
+2025-01-29 12:25:40,109 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cajeroweb:PPL_Activ2_cajero:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorExamenes\PPL_Examen\pom.xml.
+2025-01-29 12:25:40,511 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cajeroweb:Examen_Solucion_Profesor_Reformado_Bean_Enum:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\Examen_Solucion_Profesor_Reformado_Bean_Enum\Examen_Solucion_Profesor_Reformado_Bean_Enum\pom.xml.
+2025-01-29 12:25:40,968 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: cajeroweb:PPL_Activ2_cajero:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ProyectosWar\CajeroWar\pom.xml.
+2025-01-29 12:25:41,651 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: familias:06_Familias_datajpa_lombok_profe:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\06_Familias_datajpa_lombok_profe\pom.xml.
+2025-01-29 12:25:42,073 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: es.unir.excursionweb:ExcursionWar:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ProyectosWar\ExcursionWar\pom.xml.
+2025-01-29 12:25:42,436 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cajeroweb:PPL_Activ2_cajero:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Activ2_cajero\pom.xml.
+2025-01-29 12:25:42,900 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cajeroweb:PPL_Activ2_cajero:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Activ3_cajero\pom.xml.
+2025-01-29 12:25:43,399 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: eventos:PPL_Actividad4:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\pom.xml.
+2025-01-29 12:25:43,918 [Worker-18: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.unir.excursiones.web:ActividadJPA02_PPL:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorClases\ActividadJPA02_PPL\pom.xml.
+2025-01-30 13:09:12,713 [Worker-117: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cajero:APIREST_Ejemplo_Producto:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\pom.xml.
+2025-01-30 13:09:14,352 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:09:14,412 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:09:14,421 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:09:16,011 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:09:16,012 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:09:16,015 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:09:44,215 [Worker-119: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: cajero:APIREST_ResponseEntity:0.0.1-SNAPSHOT @ C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\pom.xml.
+2025-01-30 13:09:44,949 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:09:44,952 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:09:44,960 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:10:00,413 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:10:00,455 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:10:00,459 [Worker-119: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:13:30,023 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:13:30,030 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:13:30,035 [Worker-117: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:23:45,183 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:23:45,189 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:23:45,194 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:24:18,300 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:24:18,304 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:24:18,308 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:25:54,404 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:25:54,411 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:25:54,418 [Worker-121: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:26:50,410 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:26:50,421 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:26:50,430 [Worker-122: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:33:34,240 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-30 13:41:24,319 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:41:24,333 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:41:24,338 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:44:50,931 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:44:50,938 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:44:50,940 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 13:49:54,938 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 13:49:54,943 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 13:49:54,947 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 14:47:47,319 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 14:47:47,325 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 14:47:47,330 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 14:51:28,710 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 14:51:28,715 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 14:51:28,719 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 14:52:13,520 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 14:52:13,527 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 14:52:13,531 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 14:53:22,798 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 14:53:22,805 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 14:53:22,809 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 14:53:27,485 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 14:53:27,491 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 14:53:27,496 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 14:58:49,169 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 14:58:49,178 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 14:58:49,181 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 15:03:57,143 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 15:03:57,152 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 15:03:57,158 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 15:04:05,685 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 15:04:05,693 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 15:04:05,696 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 15:14:02,461 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 15:14:02,468 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 15:14:02,471 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 15:15:22,018 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 15:15:22,025 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 15:15:22,028 [Worker-59: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:48:56,300 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:48:56,308 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:48:56,311 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:54:09,040 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:54:09,047 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:54:09,050 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:54:45,009 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:54:45,015 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:54:45,018 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:55:08,334 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:55:08,339 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:55:08,342 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:55:39,142 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:55:39,147 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:55:39,150 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:55:56,800 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:55:56,804 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:55:56,808 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:57:14,812 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:57:14,819 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:57:14,822 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:57:36,613 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:57:36,620 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:57:36,623 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:58:46,902 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:58:46,907 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:58:46,910 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 18:59:45,070 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 18:59:45,074 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 18:59:45,077 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:01:00,545 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:01:00,549 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:01:00,552 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:09:33,072 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:09:33,080 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:09:33,082 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:13:49,341 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:13:49,348 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:13:49,350 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:20:58,846 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:20:58,853 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:20:58,856 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:22:11,704 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:22:11,712 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:22:11,715 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:22:25,032 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:22:25,039 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:22:25,042 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:23:54,968 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:23:54,974 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:23:54,977 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:25:07,661 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:25:07,669 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:25:07,671 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:27:37,416 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:27:37,426 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:27:37,429 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 19:28:13,361 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 19:28:13,368 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 19:28:13,371 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:00:07,159 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:00:07,166 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:00:07,169 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:00:09,916 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:00:09,923 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:00:09,926 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:03:02,209 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:03:02,214 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:03:02,216 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:03:30,606 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:03:30,611 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:03:30,615 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:04:07,346 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:04:07,354 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:04:07,357 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:05:10,935 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:05:10,941 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:05:10,944 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:05:25,090 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:05:25,096 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:05:25,099 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:05:46,006 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:05:46,010 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:05:46,012 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:07:47,938 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:07:47,942 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:07:47,944 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:07:52,200 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:07:52,204 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:07:52,207 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:09:42,600 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:09:42,607 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:09:42,610 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:11:23,592 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:11:23,598 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:11:23,600 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:13:27,258 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:13:27,262 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:13:27,264 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:13:38,550 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:13:38,555 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:13:38,557 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:15:59,393 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:15:59,399 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:15:59,402 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:19:50,586 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:19:50,591 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:19:50,593 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:20:13,506 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:20:13,510 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:20:13,514 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:20:25,758 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:20:25,763 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:20:25,766 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:22:45,490 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:22:45,497 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:22:45,500 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-30 20:22:52,332 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-30 20:22:52,339 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-30 20:22:52,342 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\APIREST_ResponseEntity\src\test\resources
+2025-01-31 00:39:46,007 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:39:46,030 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 00:39:46,040 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:40:56,170 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:40:56,177 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 00:40:56,180 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:43:47,107 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:43:47,114 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 00:43:47,118 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:45:33,386 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:45:33,389 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:45:33,392 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:46:44,673 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:46:44,676 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:46:44,679 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:47:15,608 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:47:15,609 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:47:15,611 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:48:30,724 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:48:30,725 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:48:30,729 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:54:11,083 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:54:11,085 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:54:11,087 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:54:15,371 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:54:15,373 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:54:15,377 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:54:55,531 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:54:55,532 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:54:55,536 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:55:56,946 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:55:56,947 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:55:56,950 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:57:28,999 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:57:29,001 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:57:29,004 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 00:59:35,577 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 00:59:35,579 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 00:59:35,582 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:12:30,237 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:12:30,246 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:12:30,251 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:13:32,195 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:13:32,200 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:13:32,204 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:13:46,402 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:13:46,408 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:13:46,413 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:15:01,451 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:15:01,457 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:15:01,460 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:15:09,259 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:15:09,264 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:15:09,267 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:18:10,265 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:18:10,270 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:18:10,275 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:18:44,813 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:18:44,818 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:18:44,822 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:18:52,383 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:18:52,388 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:18:52,391 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:19:33,419 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:19:33,424 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:19:33,427 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:19:40,466 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:19:40,471 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:19:40,474 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:19:53,800 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:19:53,806 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:19:53,809 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:20:17,507 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:20:17,512 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:20:17,515 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:21:14,453 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:21:14,458 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:21:14,461 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:21:20,052 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:21:20,057 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:21:20,061 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:25:42,641 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:25:42,648 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:25:42,652 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:25:48,909 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:25:48,914 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:25:48,917 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:26:01,763 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:26:01,770 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:26:01,773 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:26:11,385 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:26:11,388 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:26:11,391 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:26:36,204 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:26:36,212 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:26:36,219 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:26:40,535 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:26:40,541 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:26:40,544 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:27:12,418 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:27:12,424 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:27:12,427 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:27:20,762 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:27:20,769 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:27:20,774 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:28:40,925 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:28:40,928 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:28:40,931 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:29:02,162 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:29:02,168 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:29:02,172 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:29:07,377 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:29:07,381 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:29:07,385 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:29:23,936 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:29:23,939 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:29:23,942 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:29:41,493 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:29:41,497 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:29:41,500 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:30:13,052 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:30:13,056 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:30:13,059 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:33:13,662 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:33:13,664 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:33:13,664 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:33:54,230 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:33:54,235 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:33:54,238 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:34:04,635 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:34:04,641 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:34:04,644 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:34:18,204 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:34:18,210 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:34:18,213 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:34:53,683 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:34:53,687 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:34:53,690 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:35:25,956 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:35:25,960 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:35:25,964 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:35:40,403 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:35:40,406 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:35:40,409 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:35:44,864 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:35:44,868 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:35:44,871 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:35:53,707 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:35:53,711 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:35:53,715 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:36:16,890 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:36:16,896 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:36:16,900 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:36:22,088 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:36:22,093 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:36:22,095 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:36:59,535 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:36:59,541 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:36:59,543 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:37:56,517 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:37:56,521 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:37:56,529 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:38:12,833 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:38:12,838 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:38:12,843 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:40:51,274 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:40:51,279 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:40:51,284 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:41:20,924 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:41:20,929 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:41:20,932 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:41:27,563 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:41:27,568 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:41:27,571 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:41:41,166 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:41:41,171 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:41:41,175 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:42:26,260 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:42:26,268 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:42:26,273 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:42:58,194 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:42:58,200 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:42:58,203 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:43:08,547 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:43:08,552 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:43:08,556 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:46:24,671 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:46:24,675 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:46:24,678 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:46:27,510 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:46:27,515 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:46:27,520 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:46:46,124 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:46:46,128 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:46:46,130 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:47:26,758 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:47:26,764 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:47:26,768 [Worker-66: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:48:33,726 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:48:33,734 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:48:33,739 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:48:52,789 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:48:52,796 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:48:52,798 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:49:34,677 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:49:34,682 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:49:34,685 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:50:45,351 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:50:45,354 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:50:45,359 [Worker-77: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:52:19,679 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 01:52:19,684 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:52:19,688 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:55:10,193 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:55:10,201 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 01:55:10,207 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:55:51,089 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 01:55:51,090 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:55:51,091 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:57:27,844 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 01:57:27,844 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:57:27,849 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:58:24,454 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 01:58:24,457 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:58:24,461 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 01:58:26,328 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 01:58:26,329 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 01:58:26,332 [Worker-75: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:03:18,680 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:03:18,687 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:03:18,690 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:03:21,270 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:03:21,277 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:03:21,281 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:03:36,525 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:03:36,525 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:03:36,533 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:03:50,077 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:03:50,082 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:03:50,085 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:06:32,060 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:06:32,070 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:06:32,075 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:06:47,156 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:06:47,161 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:06:47,164 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:07:37,548 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:07:37,555 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:07:37,563 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:08:19,631 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:08:19,636 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:08:19,639 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:09:46,908 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:09:46,914 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:09:46,917 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:10:24,760 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:10:24,766 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:10:24,770 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:12:52,061 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:12:52,072 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:12:52,077 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:12:55,421 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:12:55,426 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:12:55,429 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:13:10,664 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:13:10,668 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:13:10,671 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:17:00,314 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:17:00,326 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:17:00,334 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:18:00,310 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:18:00,319 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:18:00,328 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:18:42,026 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:18:42,035 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:18:42,043 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:18:44,762 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:18:44,774 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:18:44,781 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:18:55,850 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:18:55,861 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:18:55,867 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:26:44,867 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:26:44,879 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:26:44,891 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:26:52,786 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:26:52,799 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:26:52,806 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:27:43,629 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:27:43,635 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:27:43,641 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:27:53,715 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:27:53,722 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:27:53,729 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:27:58,828 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:27:58,839 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:27:58,845 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:28:15,194 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:28:15,202 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:28:15,210 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:28:22,077 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:28:22,083 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:28:22,090 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:28:27,830 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:28:27,837 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 11 resources from src\main\resources to target\classes
+2025-01-31 02:28:27,845 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:32:46,190 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:32:46,193 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:32:46,199 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:33:10,004 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:33:10,007 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:33:10,013 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:33:16,014 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:33:16,019 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:33:16,026 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:34:03,957 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:34:03,961 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:34:03,968 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:34:28,177 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:34:28,180 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:34:28,187 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:34:38,673 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:34:38,678 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:34:38,684 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:34:57,186 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:34:57,189 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:34:57,194 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:35:14,317 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:35:14,320 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:35:14,326 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:35:29,620 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:35:29,623 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:35:29,627 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:35:30,744 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:35:30,746 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:35:30,751 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:35:39,460 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:35:39,463 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:35:39,468 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:35:46,371 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:35:46,374 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:35:46,378 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:37:55,707 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:37:55,711 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:37:55,718 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:37:59,933 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:37:59,937 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:37:59,943 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:38:42,867 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:38:42,878 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:38:42,887 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:39:05,141 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:39:05,154 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:39:05,163 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:39:56,434 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:39:56,441 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:39:56,448 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:40:19,553 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:40:19,561 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:40:19,568 [Worker-71: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:40:29,535 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:40:29,542 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:40:29,549 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:40:37,953 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:40:37,961 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:40:37,969 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:41:14,616 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:41:14,626 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:41:14,635 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:42:33,075 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:42:33,086 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:42:33,095 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:42:45,134 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:42:45,146 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:42:45,154 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:43:01,138 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:43:01,149 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 12 resources from src\main\resources to target\classes
+2025-01-31 02:43:01,155 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:44:08,729 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:44:08,733 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:44:08,738 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:45:05,581 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:45:05,585 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:45:05,590 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:45:23,473 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:45:23,478 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:45:23,485 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:45:43,701 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:45:43,708 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:45:43,716 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:46:39,163 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:46:39,169 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:46:39,175 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:46:51,253 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:46:51,256 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:46:51,260 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:47:09,974 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:47:09,979 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:47:09,984 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:47:12,807 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:47:12,811 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:47:12,816 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:47:28,818 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:47:28,822 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:47:28,827 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:47:31,792 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:47:31,796 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:47:31,802 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:47:37,707 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:47:37,711 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:47:37,721 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:48:09,420 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:48:09,423 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:48:09,430 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:48:59,253 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:48:59,257 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:48:59,265 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:49:08,935 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:49:08,940 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:49:08,944 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:49:16,569 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:49:16,572 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:49:16,576 [Worker-82: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:49:27,208 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:49:27,212 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:49:27,218 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:49:53,182 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:49:53,187 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:49:53,191 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:50:49,436 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:50:49,439 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:50:49,444 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:52:02,422 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:52:02,426 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:52:02,431 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:52:10,108 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:52:10,113 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:52:10,117 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:52:15,985 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:52:15,990 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:52:15,995 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:53:02,295 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:53:02,298 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:53:02,303 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:53:05,518 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:53:05,521 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:53:05,526 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:55:15,332 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:55:15,339 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:55:15,348 [Worker-72: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:55:26,425 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:55:26,429 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:55:26,441 [Worker-74: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:58:31,720 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:58:31,723 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:58:31,734 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:58:51,146 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:58:51,150 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:58:51,158 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:59:07,607 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:59:07,611 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:59:07,622 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 02:59:38,313 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 02:59:38,318 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 02:59:38,327 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 03:00:42,814 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 03:00:42,816 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 03:00:42,821 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 03:00:49,896 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 03:00:49,900 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 03:00:49,912 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources
+2025-01-31 03:01:10,352 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-31 03:01:10,356 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-31 03:01:10,360 [Worker-73: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\pabli\Documents\SPRING TOOLS\DWES_2024_2025\ServidorActividades\PPL_Actividad4\src\test\resources

@@ -12,8 +12,13 @@ public interface ReservaRepository extends JpaRepository<Reserva, Integer> {
 
 	
 	@Query("SELECT r.idReserva FROM Reserva r WHERE r.evento.idEvento =?1  " )
-	List<Integer> obtenerIdsReservasPorEvento (int idEvento);
+	List<Integer> findReservasByEvento (int idEvento);
 	
 	@Query("SELECT r FROM Reserva r WHERE r.usuario.username =?1 ")
-	List<Reserva> findReservaByUsarioUsername (String username);
+	List<Reserva> findReservaByUsuarioUsername (String username);
+	
+	@Query("SELECT r FROM Reserva r WHERE r.evento.idEvento =?1 ")
+	List<Reserva> listReservasByEvento(int idEvento);
+	
+  
 }

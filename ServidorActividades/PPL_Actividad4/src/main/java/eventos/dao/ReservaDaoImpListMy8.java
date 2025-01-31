@@ -64,7 +64,7 @@ public class ReservaDaoImpListMy8 implements ReservaDao{
 
 	@Override
 	public List<Reserva> buscarReservasPorUsuario(String username) {
-		return resrepo.findReservaByUsarioUsername(username);
+		return resrepo.findReservaByUsuarioUsername(username);
 		
 	
 	}
@@ -72,7 +72,7 @@ public class ReservaDaoImpListMy8 implements ReservaDao{
 	@Override
 	public boolean eliminarReservasDeEvento(int idEvento) {
 	    try {
-	        List<Integer> idsReservas = resrepo.obtenerIdsReservasPorEvento(idEvento);
+	        List<Integer> idsReservas = resrepo.findReservasByEvento(idEvento);
 	        
 	        if (!idsReservas.isEmpty()) {
 	        	
@@ -88,7 +88,25 @@ public class ReservaDaoImpListMy8 implements ReservaDao{
 	        return false;
 	    }
 	}
+	
+	
+    public int calcularAforoDisponible(int idEvento, int aforoMaximo) {
+        // Obtener todas las reservas del evento
+        List<Reserva> reservas = resrepo.listReservasByEvento(idEvento);
 
+        // Sumar la cantidad de asistentes en memoria
+        int totalAsistentes = reservas.stream().mapToInt(Reserva::getCantidad).sum();
 
+        // Calcular aforo disponible evitando valores negativos
+        int aforoDisponible = Math.max(aforoMaximo - totalAsistentes, 0);
+
+        // LOG para verificar si el cálculo es correcto
+        System.out.println("Evento ID: " + idEvento);
+        System.out.println("Aforo Máximo: " + aforoMaximo);
+        System.out.println("Total Asistentes Reservados: " + totalAsistentes);
+        System.out.println("Aforo Disponible: " + aforoDisponible);
+
+        return aforoDisponible;
+    }
 
 }

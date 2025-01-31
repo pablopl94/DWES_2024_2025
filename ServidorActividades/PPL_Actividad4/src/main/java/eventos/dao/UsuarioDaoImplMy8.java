@@ -23,8 +23,7 @@ public class UsuarioDaoImplMy8 implements UsuarioDao{
 
 	@Override
 	public List<Usuario> findAll() {
-		// TODO Auto-generated method stub
-		return null;
+		return urepo.findAll();
 	}
 
 	@Override

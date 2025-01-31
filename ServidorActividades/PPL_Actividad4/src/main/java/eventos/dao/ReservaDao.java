@@ -8,8 +8,8 @@ public interface ReservaDao extends IGenericoCrud<Reserva, Integer>{
 	
 	List<Reserva> buscarReservasPorUsuario(String username);
 	
-	
 	boolean eliminarReservasDeEvento(int idEvento);
-	
+	    
+    int calcularAforoDisponible(int idEvento, int aforoMaximo);
 
 }
