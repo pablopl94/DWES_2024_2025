@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import jakarta.validation.Valid;
 import restproductos.dto.ProductoDto;
 import restproductos.entidades.Familia;
 import restproductos.entidades.Producto;
@@ -95,13 +97,24 @@ public class ProductoRestController {
 
 	
 	//ALTA PRODUCTO
-	@PostMapping("/")
-	public ResponseEntity<?> altaProduct(@RequestBody ProductoDto productoDto) {
+	@PostMapping("/alta")
+	public ResponseEntity<?> altaProduct(@RequestBody @Valid ProductoDto productoDto, BindingResult resultado) {
+		
+		
 			
 		Familia familia = familiaServices.findById(productoDto.getCodigoFamilia());
 		
 		if (familia == null) {
 			return new ResponseEntity<String>("Familia no encontrada", HttpStatus.NOT_FOUND);
+		}
+	
+		//SACAR LOS ERRORES DE LAS VALIDACIONES CON BINDINGRESULT
+		if(resultado.hasErrors()) {
+			List<String> lista = 
+					resultado.getAllErrors().stream()
+						.map(error -> error.getDefaultMessage())
+						.toList();
+					return new ResponseEntity<>(lista,HttpStatus.BAD_REQUEST);		
 		}
 		
 		Producto producto = productoDto.toDto();

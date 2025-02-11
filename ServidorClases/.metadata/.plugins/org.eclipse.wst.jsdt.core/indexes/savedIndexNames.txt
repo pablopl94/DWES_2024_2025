@@ -1,9 +1,0 @@
-INDEX VERSION 1.4+C:\Users\pabli\Documents\SPRING TOOLS\CLASES SERVIDOR\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3014064070.index
-4273918153.index
-2551809521.index
-1852488345.index
-2138176232.index
-1909393763.index
-3785666500.index
-1651153988.index

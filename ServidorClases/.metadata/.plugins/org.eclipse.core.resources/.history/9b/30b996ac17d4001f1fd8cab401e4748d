@@ -1,5 +1,0 @@
-package eventos.dao;
-
-public interface PerfilDao extends IGenericoCrud<Perfil, Integer> {
-
-}
