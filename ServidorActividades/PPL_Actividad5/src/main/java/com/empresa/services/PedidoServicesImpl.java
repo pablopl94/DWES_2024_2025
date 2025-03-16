@@ -80,7 +80,8 @@ public class PedidoServicesImpl implements PedidoServices {
 	public List<PedidoDto> buscarPedidosPorComercial(int idComercial) {
 	    List<Pedido> listaPedidos = pedidoRepository.findByComercial_IdComercial(idComercial);
 
-	    // Usamos fromEntity en lugar de modelMapper.map para poder calcular los campos personalizados
+	    // AQUI no uso ModelMapper para pasar a Dto porque me daba error, al sacar el nombrecompleto del comercial
+	    // y cliente . He tenido que hacer el filtro en el dto para pasarlo a dto y usarla aqui.
 	    return listaPedidos.stream()
                 .map(pedido -> new PedidoDto().fromEntity(pedido))
                 .collect(Collectors.toList());
